@@ -93,3 +93,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 * readme file clearly documents the target end user for this program.
 * Using a 3rd party api
 * A minimum of 90 GitHub commits 
+
+# Exceeding Project Requirements
+* Incorporating a new technology not taught in the program
+* Your app should have one HTML page to render your react-redux application
+* Use Redux middleware to respond to and modify state change
+* Project is deployed using using firebase
+* Uses React, AND Redux
+* readme file has embedded link (not url) to publicly deployed app
