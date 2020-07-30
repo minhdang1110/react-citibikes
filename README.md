@@ -4,6 +4,8 @@
 * Bikes station are scattered everywhere, and tourists need to know the closest one to be there as soon as possible
 2. Solution:
 * Show the nearest city bike station when the user inputs the address/zip code/ coordinates and also return the station information
+3. Target end user:
+* Tourists and residents of the cities who are fond of biking
 
 ## API
 * https://github.com/eskerda/pybikes
@@ -101,13 +103,13 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 * Uses CSS or styled components to style application
 * Frontend uses Axios requests 
 * App renders in browser
-* On project submission console.log() statements  must be commented 
+* On project submission console.log() statements must be commented 
 * Be written with kebab-case CSS class names (e.g. this-is-the-class-name)
 * Be written with semantic, camelCase JavaScript variable names
 * Pseudocode/comments that describe functionality should be throughout each component 
 * `DONE` Has readme.md file at the root of repository
 * `DONE` readme file clearly documents the purpose of the project as a problem statement
-* readme file clearly documents the target end user for this program.
+* `DONE` readme file clearly documents the target end user for this program.
 * `DONE` Using a 3rd party api
 * A minimum of 90 GitHub commits 
 
