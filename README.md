@@ -1,3 +1,6 @@
+## Wireframe
+![Wireframe](wireframe.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +69,27 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+# Minimum Project Requirements
+* Project must be approved by Instructor approval at the start of project week
+* Project code is pushed to a public Git repository
+* The code should be written in ES6 as much as possible
+* Use the create-react-app generator to start your project.
+* There should be 2 container components (stateful)
+* There should be 5 presentational components (stateless)
+* There should be 3 or more routes
+* The application must make use of react-router
+* Make use of async actions to send data to and receive data from a server
+* Your client-side application should handle the display of data with minimal data manipulation
+* Uses CSS or styled components to style application
+* Frontend uses Axios requests 
+* App renders in browser
+* On project submission console.log() statements  must be commented 
+* Be written with kebab-case CSS class names (e.g. this-is-the-class-name)
+* Be written with semantic, camelCase JavaScript variable names
+* Pseudocode/comments that describe functionality should be throughout each component 
+* Has readme.md file at the root of repository
+* readme file clearly documents the purpose of the project as a problem statement
+* readme file clearly documents the target end user for this program.
+* Using a 3rd party api
+* A minimum of 90 GitHub commits 
