@@ -88,10 +88,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 # Minimum Project Requirements
-* Project must be approved by Instructor approval at the start of project week
-* Project code is pushed to a public Git repository
-* The code should be written in ES6 as much as possible
-* Use the create-react-app generator to start your project.
+* `DONE` Project must be approved by Instructor approval at the start of project week
+* `DONE` Project code is pushed to a public Git repository
+* `DONE` The code should be written in ES6 as much as possible
+* `DONE` Use the create-react-app generator to start your project.
 * There should be 2 container components (stateful)
 * There should be 5 presentational components (stateless)
 * There should be 3 or more routes
@@ -105,10 +105,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 * Be written with kebab-case CSS class names (e.g. this-is-the-class-name)
 * Be written with semantic, camelCase JavaScript variable names
 * Pseudocode/comments that describe functionality should be throughout each component 
-* Has readme.md file at the root of repository
-* readme file clearly documents the purpose of the project as a problem statement
+* `DONE` Has readme.md file at the root of repository
+* `DONE` readme file clearly documents the purpose of the project as a problem statement
 * readme file clearly documents the target end user for this program.
-* Using a 3rd party api
+* `DONE` Using a 3rd party api
 * A minimum of 90 GitHub commits 
 
 # Exceeding Project Requirements
