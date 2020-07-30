@@ -1,3 +1,10 @@
+## Problem and Solution
+1. Problem: 
+* The need for biking to slowly enjoy the cities are increasing 
+* Bikes station are scattered everywhere, and tourists need to know the closest one to be there as soon as possible
+2. Solution:
+* Show the nearest city bike station when the user inputs the address/zip code/ coordinates and also return the station information
+
 ## Wireframe
 ![Wireframe](wireframe.png)
 
