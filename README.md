@@ -10,6 +10,11 @@
 * http://api.citybik.es/v2/?fbclid=IwAR2TpUUAClRbMLAOWrN-AZFrA6fruZ7onCNNOOZdvBMFhK4APzWmvc2X18Y
 * http://api.citybik.es/v2/networks
 
+## Tentative Technology:
+Calculate distance based on the coordinates
+Return the closest available bikes and docks
+Having multiple filters (name, system, company, etc.)
+
 ## Wireframe
 ![Wireframe](wireframe.png)
 
