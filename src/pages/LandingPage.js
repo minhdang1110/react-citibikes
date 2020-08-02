@@ -14,7 +14,7 @@ class LandingPage extends React.Component {
         };
     }
    
-    componentDidMount = () => {
+    componentDidMount = async () => {
         let state = this;
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(function (position) {
@@ -26,7 +26,7 @@ class LandingPage extends React.Component {
                 longitude: long,
                 latitude: lat,
                 });
-            });
+            })
         } 
         else {
             alert("Geolocation is not supported by this browser");
