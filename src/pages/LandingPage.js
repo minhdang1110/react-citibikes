@@ -38,7 +38,8 @@ class LandingPage extends React.Component {
                 
                 <p className="inform-paragraph">
                     Please turn on your Wifi and input the city where you want to find a
-                    nearest citybike station
+                    nearest citybike station. If error occurs, please reload and enable
+                    location asking.
                 </p>
                 
                 {/* Input field */}
