@@ -44,6 +44,8 @@ class LandingPage extends React.Component {
                     nearest citybike station. If error occurs, please reload and enable
                     location asking.
                 </p>
+
+                <Validate/>
                 
                 {/* Input field */}
                 <div className="dashboard-input">
