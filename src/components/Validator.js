@@ -6,6 +6,13 @@ class Validator extends React.Component {
         choice: "",
         isAvailable : false
     };
+
+    handleChange = (e) => {
+        this.setState({
+            choice: e.target.value,
+        });
+    };
+   
 }
 
 export default Validator;
