@@ -17,3 +17,14 @@ export const getAvailableCities = async () => {
     console.log('ucities', ucities)
     return ucities;
 }
+
+export const getAvailableCountries = async () => {
+    const network = await getNetworkData();
+
+    const coutries = _.map(network, (data) => {
+        return data.location.country;
+    })
+    
+    const ucountries = _.uniq(coutries)
+    return ucountries;
+} 
