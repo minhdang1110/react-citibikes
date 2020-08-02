@@ -14,7 +14,7 @@ export const getAvailableCities = async () => {
     })
 
     const ucities = _.uniq(cities)
-    console.log('ucities', ucities)
+    // console.log('ucities', ucities)
     return ucities;
 }
 
