@@ -14,7 +14,7 @@
 
 ## Tentative Technology:
 Calculate distance based on the coordinates
-Return the closest available bikes and docks
+Return the closest avsailable bikes and docks
 Having multiple filters (name, system, company, etc.)
 
 ## Wireframe
