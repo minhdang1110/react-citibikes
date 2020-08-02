@@ -48,7 +48,10 @@ class LandingPage extends React.Component {
                 </div>
          
                 {/* Search button */}
-                <button className="dashboard-search-button"> <i class="prefix material-icons">search</i>Search</button>
+                <button className="dashboard-search-button">
+                    {" "}
+                    <i className="material-icons">search</i>Search
+                </button>
             </div>
         );
     }
