@@ -1,6 +1,5 @@
 import React from 'react';
 import {BrowserRouter, Route} from 'react-router-dom'
-import './App.css';
 import LandingPage from "./pages/LandingPage";
 import '../../node_modules/materialize-css/dist/css/materialize.min.css';
 
