@@ -52,6 +52,13 @@ class LandingPage extends React.Component {
                     {" "}
                     <i className="material-icons">search</i>Search
                 </button>
+
+                {/* Current location */}
+                <h5>
+                    Current location: {this.state.latitude ? this.state.latitude : "null"}{" "} <br/>
+                    {this.state.longitude ? this.state.longitude : "null"}
+                </h5>
+
             </div>
         );
     }
