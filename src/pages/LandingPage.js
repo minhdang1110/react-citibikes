@@ -11,6 +11,25 @@ class LandingPage extends React.Component {
         };
     }
    
+    componentDidMount = () => {
+        let state = this;
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function (position) {
+                console.log("in nat", this);
+                let lat = position.coords.latitude;
+                let long = position.coords.longitude;
+   
+                state.setState({
+                longitude: long,
+                latitude: lat,
+                });
+            });
+        } 
+        else {
+            alert("Geolocation is not supported by this browser");
+        }
+    };
+   
 
     render() {
         return (
