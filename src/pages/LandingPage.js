@@ -12,10 +12,12 @@ class LandingPage extends React.Component {
                     nearest citybike station
                 </p>
                 
+                {/* Input field */}
                 <div className="dashboard-input">
                     <input type="text" placeholder="City Name. Ex: New York" />
                 </div>
          
+                {/* Search button */}
                 <button className="dashboard-search-button"> <i class="prefix material-icons">search</i>Search</button>
             </div>
         );
