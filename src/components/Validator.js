@@ -34,7 +34,10 @@ class Validator extends React.Component {
             isAvailable : isAvailable
         })
     };
-   
+
+    checkAvailability = () => {
+        return this.state.isAvailable ? <div className="green-text text-darken-2">Available</div> : <div className="red-text text-darken-2">Not available</div>
+    }
 }
 
 export default Validator;
