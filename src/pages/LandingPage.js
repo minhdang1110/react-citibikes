@@ -1,4 +1,5 @@
 import React from "react";
+import axios from 'axios';
 import "../styles/LandingPage.css";
 
 class LandingPage extends React.Component {
