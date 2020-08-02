@@ -2,6 +2,8 @@ import React from "react";
 import axios from 'axios';
 import "../styles/LandingPage.css";
 
+import Validate from '../components/FindCityandCountry';
+
 class LandingPage extends React.Component {
     constructor(props) {
         super(props);
