@@ -2,6 +2,16 @@ import React from "react";
 import "../styles/LandingPage.css";
 
 class LandingPage extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            longitude: 0,
+            latitude: 0,
+            city: "",
+        };
+    }
+   
+
     render() {
         return (
             <div className="container">
