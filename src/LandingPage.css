@@ -10,9 +10,10 @@
 
 .dashboard-search-button {
     height: 49px;
-    width: 10%;
+    width: 50px;
     margin-left: 20px;
     transition: background-color 0.5s, border 0.5s, color 0.5;
+    font-size: 0.8rem;
 }
 
 .dashboard-search-button:hover {
