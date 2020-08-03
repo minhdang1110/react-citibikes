@@ -36,8 +36,25 @@ class LandingPage extends React.Component {
             alert("Geolocation is not supported by this browser");
         }
     };
-   
 
+    handleChange = (e) => {
+        let choice = e.target.value || "";
+        choice = choice.split(", ")
+        let country = choice[0];
+        let countryArr = choice.slice(1);
+        let  city = countryArr.join(", ")
+   
+        console.log('cc', country, city);
+        this.setState({
+            country : country,
+            city : city
+        })
+    };
+   
+    handleClick = (e) => {
+   
+    }
+   
     render() {
         return (
             <div className="container">
