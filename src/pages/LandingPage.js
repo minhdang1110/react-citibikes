@@ -18,11 +18,11 @@ class LandingPage extends React.Component {
     }
    
     componentDidMount = async () => {
-        console.log(generateStationIdWithCountryandCitySpecifically)
+        // console.log(generateStationIdWithCountryandCitySpecifically)
         let state = this;
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(function (position) {
-                console.log("in nat", this);
+                // console.log("in nat", this);
                 let lat = position.coords.latitude;
                 let long = position.coords.longitude;
    
