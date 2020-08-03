@@ -15,3 +15,13 @@ export const generateStationIdWithLocation = async () => {
     // console.log(network);
     return stationIdWithLocation;
 }
+
+export const generateStationIdWithCountryandCitySpecifically = async () => {
+    const network = await getNetworkData();
+    let stationIdWithCountryandCity = [];
+    _.map(network, ({id, location}) => {
+        stationIdWithCountryandCity.push({id, country: location.country, city: location.city})
+    })
+    console.log(stationIdWithCountryandCity);
+    return stationIdWithCountryandCity
+} 
