@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/LandingPage.css";
 
 import Validate from '../components/FindLocation';
+import { generateStationIdWithCountryandCitySpecifically } from "../utils/getMatchLocation";
 
 class LandingPage extends React.Component {
     constructor(props) {
@@ -14,6 +15,7 @@ class LandingPage extends React.Component {
     }
    
     componentDidMount = async () => {
+        console.log(generateStationIdWithCountryandCitySpecifically)
         let state = this;
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(function (position) {
