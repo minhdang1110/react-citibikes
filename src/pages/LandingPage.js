@@ -15,6 +15,8 @@ class LandingPage extends React.Component {
             city: "",
             country: ""
         };
+        this.city = "";
+        this.country = "";   
     }
    
     componentDidMount = async () => {
@@ -30,7 +32,7 @@ class LandingPage extends React.Component {
                 longitude: long,
                 latitude: lat,
                 });
-            })
+            });
         } 
         else {
             alert("Geolocation is not supported by this browser");
@@ -39,21 +41,32 @@ class LandingPage extends React.Component {
 
     handleChange = (e) => {
         let choice = e.target.value || "";
-        choice = choice.split(", ")
+        choice = choice.split(", ");
         let country = choice[0];
         let countryArr = choice.slice(1);
-        let  city = countryArr.join(", ")
+        let  city = countryArr.join(", ");
    
         console.log('cc', country, city);
         this.setState({
             country : country,
             city : city
         })
+        this.city = "";
+        this.country = "";   
     };
    
     handleClick = (e) => {
-   
-    }
+        this.setState({
+            country: this.country,
+            city: this.city,
+        });
+    };
+
+    renderMainValidator = () => {
+        return (
+            <MainValidator city={this.state.city} country={this.state.country} />
+        );
+    };
    
     render() {
         return (
@@ -79,13 +92,15 @@ class LandingPage extends React.Component {
                     <i className="material-icons">search</i>Search
                 </button>
 
-                {/* Current location */}
+                {/* Current location
                 <h5>
                     Current location: {this.state.latitude ? this.state.latitude : "null"}{" "} <br/>
                     {this.state.longitude ? this.state.longitude : "null"}
                 </h5>
 
-                <MainValidator {...this.state} />
+                <MainValidator {...this.state} /> */}
+                        
+                {this.renderMainValidator()}
 
             </div>
         );
