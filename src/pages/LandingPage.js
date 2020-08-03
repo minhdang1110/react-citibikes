@@ -3,6 +3,8 @@ import "../styles/LandingPage.css";
 
 import Validate from '../components/FindLocation';
 import { generateStationIdWithCountryandCitySpecifically } from "../utils/getMatchLocation";
+import Prompt from '../components/Validator';
+import MainValidator from '../components/MainValidator';
 
 class LandingPage extends React.Component {
     constructor(props) {
