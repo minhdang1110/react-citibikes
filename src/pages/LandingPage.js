@@ -13,6 +13,7 @@ class LandingPage extends React.Component {
             longitude: 0,
             latitude: 0,
             city: "",
+            country: ""
         };
     }
    
