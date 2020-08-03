@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/LandingPage.css";
 
-import Validate from '../components/FindCityandCountry';
+import Validate from '../components/FindLocation';
 
 class LandingPage extends React.Component {
     constructor(props) {
