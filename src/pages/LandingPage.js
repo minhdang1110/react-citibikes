@@ -70,11 +70,11 @@ class LandingPage extends React.Component {
                 
                 {/* Input field */}
                 <div className="dashboard-input">
-                    <input type="text" placeholder="City Name. Ex: New York" />
+                    <input type="text" placeholder="City Name. Ex: New York" onChange={this.handleChange}/>
                 </div>
          
                 {/* Search button */}
-                <button className="dashboard-search-button">
+                <button className="dashboard-search-button" onClick={this.handleClick}>
                     {" "}
                     <i className="material-icons">search</i>Search
                 </button>
@@ -84,6 +84,8 @@ class LandingPage extends React.Component {
                     Current location: {this.state.latitude ? this.state.latitude : "null"}{" "} <br/>
                     {this.state.longitude ? this.state.longitude : "null"}
                 </h5>
+
+                <MainValidator {...this.state} />
 
             </div>
         );
