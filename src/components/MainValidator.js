@@ -1,6 +1,7 @@
 import React from "react";
 import _ from 'lodash';
 import '../styles/Validator.css';
+import {Link} from 'react-router-dom';
 
 import {
     getStationIdThatMatchCountryAndCitySearch,
@@ -51,7 +52,7 @@ class MainValidator extends React.Component {
                 <div className="grid">
                     {_.map( this.state.stationIdMatchesCities, (station) => {
                         console.log('in map', station)
-                        return <div className="flex-item">{station}</div>
+                        return <div className="flex-item" key={station}><Link to={`station/${station}`}>{station}</Link></div>
                     })}
                 </div>
  
@@ -62,7 +63,7 @@ class MainValidator extends React.Component {
                 <div className="grid">
                     {_.map( this.state.stationIdMatchesCountry, (station) => {
                         console.log('in map', station)
-                        return <div className="flex-item">{station}</div>
+                        return <div className="flex-item" key={station}><Link to={`station/${station}`}>{station}</Link></div>
                     })}
                 </div>
             </div>
