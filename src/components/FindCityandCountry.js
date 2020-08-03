@@ -1,5 +1,5 @@
 import Validate from "./Validator";
-import {getAvailableCountries,getAvailableCities,} from "../utils/getAvailableCountryandCity";
+import {getAvailableCountries,getAvailableCities,} from "../utils/getAvailableLocation";
 import React, { useState } from "react";
 
 function ValidateList() {
