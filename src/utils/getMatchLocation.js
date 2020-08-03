@@ -82,6 +82,6 @@ export const generateStationIdWithCountryandCitySpecifically = async () => {
     _.map(network, ({id, location}) => {
         stationIdWithCountryandCity.push({id, country: location.country, city: location.city})
     })
-    console.log(stationIdWithCountryandCity);
+    // console.log(stationIdWithCountryandCity);
     return stationIdWithCountryandCity
 } 
