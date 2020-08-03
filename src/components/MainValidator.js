@@ -69,9 +69,6 @@ class MainValidator extends React.Component {
         )
     }   
 }
- 
- 
-
     // render() {
     //     console.log("in main validator", this.props.country, this.props.city);
         
@@ -82,7 +79,4 @@ class MainValidator extends React.Component {
         // console.log(getStationIdThatMatchCitySearch(this.props.city));
      
         // return <div>Main Validator</div>;
-    }    
-}
-
 export default MainValidator;
