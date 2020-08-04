@@ -7,7 +7,7 @@ import {
     getStationIdThatMatchCountryAndCitySearch,
     getStationIdThatMatchCountrySearch,
     getStationIdThatMatchCitySearch
-    } from "../utils/getStationIdThatMatchCountryandCitySearch";
+    } from "../utils/getMatchLocation";
 
 class MainValidator extends React.Component {
     constructor(props){
